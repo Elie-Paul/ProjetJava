@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="783.0" prefWidth="952.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stic3.sn.ui.MainController">
+   <children>
+      <Pane layoutY="-5.0" prefHeight="224.0" prefWidth="952.0" style="-fx-background-color: #BD462B;" />
+      <Pane layoutX="10.0" layoutY="226.0" prefHeight="534.0" prefWidth="938.0">
+         <children>
+            <Button fx:id="btnAddr" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="152.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Address" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/addreRed.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnPay" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="316.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Payment" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/payment.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnRent" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="479.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Rental" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/rentalRed.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnCat" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="644.0" layoutY="274.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Category" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/CatRed.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnUser" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="153.0" layoutY="64.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Users" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/ured.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnMovie" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="318.0" layoutY="63.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Movies" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/moviered.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnAct" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="477.0" layoutY="64.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Actors" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Wrestling_50px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnSto" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="642.0" layoutY="64.0" mnemonicParsing="false" onAction="#onClick" prefHeight="136.0" prefWidth="142.0" style="-fx-background-radius: 10px;" text="Stores" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="77.0" fitWidth="105.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/Storered1.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

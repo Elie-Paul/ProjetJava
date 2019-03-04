@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="300.0" prefWidth="460.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="stic3.sn.ui.RentalController">
+   <children>
+      <ComboBox fx:id="comboInv" layoutX="226.0" layoutY="80.0" prefWidth="150.0" style="-fx-background-radius: 10px;" />
+      <ComboBox fx:id="comboCust" layoutX="227.0" layoutY="119.0" prefWidth="150.0" style="-fx-background-radius: 10px;" />
+      <ComboBox fx:id="comboUser" layoutX="226.0" layoutY="160.0" prefWidth="150.0" style="-fx-background-radius: 10px;" />
+      <Button fx:id="btnRent" layoutX="265.0" layoutY="214.0" mnemonicParsing="false" onAction="#onClick" prefHeight="30.0" prefWidth="84.0" style="-fx-background-radius: 10px;" text="Rent" textFill="#bd462b">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="95.0" layoutY="79.0" text="Inventory" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="118.0" text="Customers" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="95.0" layoutY="159.0" text="Users" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

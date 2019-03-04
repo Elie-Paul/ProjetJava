@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="560.0" prefWidth="554.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="stic3.sn.ui.AddUserController">
+   <children>
+      <Label layoutX="23.0" layoutY="34.0" text="First name" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name1" layoutX="159.0" layoutY="36.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <Button fx:id="btnAdd" layoutX="183.0" layoutY="488.0" mnemonicParsing="false" onAction="#onClick" prefHeight="35.0" prefWidth="121.0" style="-fx-background-radius: 10px;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="23.0" layoutY="92.0" text="Last name" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="149.0" text="Address" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="22.0" layoutY="206.0" text="Email" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="24.0" layoutY="269.0" text="Store" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="381.0" text="Username" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="439.0" text="Password" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name2" layoutX="159.0" layoutY="92.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="email" layoutX="158.0" layoutY="206.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="username" layoutX="161.0" layoutY="381.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <RadioButton fx:id="active" layoutX="23.0" layoutY="317.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" text="Active" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </RadioButton>
+      <ComboBox fx:id="combAddr" layoutX="158.0" layoutY="154.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <ComboBox fx:id="combSto" layoutX="158.0" layoutY="269.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <PasswordField fx:id="pwd" layoutX="159.0" layoutY="438.0" prefHeight="35.0" prefWidth="180.0" style="-fx-background-radius: 10px;" />
+      <ImageView fx:id="img" fitHeight="108.0" fitWidth="121.0" layoutX="410.0" layoutY="34.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/icons8_Person_50px.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnImg" layoutX="408.0" layoutY="151.0" mnemonicParsing="false" onAction="#onClick" prefHeight="35.0" prefWidth="121.0" style="-fx-background-radius: 10px;" text="Import Image">
+         <font>
+            <Font name="System Bold Italic" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

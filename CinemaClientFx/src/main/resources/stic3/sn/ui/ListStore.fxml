@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stic3.sn.ui.ListStoreController">
+   <children>
+      <Label layoutX="128.0" layoutY="26.0" text="List Store" textFill="#bd462b">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="table" layoutX="29.0" layoutY="93.0" prefHeight="271.0" prefWidth="377.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="name" prefWidth="75.0" text="Store name" />
+            <TableColumn fx:id="manager" prefWidth="89.0" text="Manager" />
+            <TableColumn fx:id="address" prefWidth="137.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

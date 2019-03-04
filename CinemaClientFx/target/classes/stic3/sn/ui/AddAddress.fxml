@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="418.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stic3.sn.ui.AddAddressController">
+   <children>
+      <Label alignment="CENTER" layoutX="91.0" layoutY="14.0" prefHeight="66.0" prefWidth="221.0" text="Add Address" textAlignment="CENTER" textFill="#bd462b">
+         <font>
+            <Font name="Bell MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="59.0" layoutY="89.0" prefHeight="36.0" prefWidth="95.0" text="Address" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <Label layoutX="57.0" layoutY="132.0" prefHeight="36.0" prefWidth="95.0" text="Address 2" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font></Label>
+      <TextField fx:id="Addr1" layoutX="195.0" layoutY="95.0" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="Addr2" layoutX="195.0" layoutY="138.0" style="-fx-background-radius: 10px;" />
+      <Button fx:id="btnAdd" layoutX="217.0" layoutY="340.0" mnemonicParsing="false" onAction="#onClick" prefHeight="25.0" prefWidth="106.0" style="-fx-background-radius: 10px;" text="Add">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font></Button>
+      <Label layoutX="53.0" layoutY="175.0" prefHeight="36.0" prefWidth="95.0" text="District" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="55.0" layoutY="211.0" prefHeight="36.0" prefWidth="95.0" text="City" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="249.0" prefHeight="36.0" prefWidth="95.0" text="Postal code" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="296.0" prefHeight="36.0" prefWidth="95.0" text="Phone" textFill="#bd462b">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="dist" layoutX="196.0" layoutY="181.0" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="code" layoutX="196.0" layoutY="256.0" style="-fx-background-radius: 10px;" />
+      <TextField fx:id="phone" layoutX="196.0" layoutY="301.0" style="-fx-background-radius: 10px;" />
+      <ComboBox fx:id="combCity" layoutX="195.0" layoutY="217.0" prefWidth="150.0" style="-fx-background-radius: 10px;" />
+   </children>
+</AnchorPane>

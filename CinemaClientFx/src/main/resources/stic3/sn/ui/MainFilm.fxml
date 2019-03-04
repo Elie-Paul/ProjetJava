@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="605.0" prefWidth="753.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="stic3.sn.ui.ActorMainController">
+   <left>
+      <VBox prefHeight="400.0" prefWidth="182.0" spacing="20.0" style="-fx-background-radius: 10px;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnAdd" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="182.0" text="Add" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Add_64px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnUpdate" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="182.0" text="Update" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Update_64px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnList" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="182.0" text="List" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_List_64px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="btnQuit" alignment="BASELINE_LEFT" graphicTextGap="20.0" mnemonicParsing="false" onAction="#onClick" prefHeight="51.0" prefWidth="182.0" text="Quit" textFill="#bd462b">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+               <graphic>
+                  <ImageView fitHeight="23.0" fitWidth="23.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Images/icons8_Close_Window_48px.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets top="170.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <Pane fx:id="panConte" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0D3D4; -fx-background-radius: 10px;" BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>
